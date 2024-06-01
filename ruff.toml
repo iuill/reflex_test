@@ -1,0 +1,11 @@
+line-length = 119
+
+select = ["ALL"]
+unfixable = ["F401", "F841"]
+ignore = [
+    "D103", # docstring https://docs.astral.sh/ruff/rules/undocumented-public-function/
+    "D100", # public module https://docs.astral.sh/ruff/rules/undocumented-public-module/
+    "S110", # pass https://docs.astral.sh/ruff/rules/try-except-pass/
+    ]
+
+target-version = "py312"
